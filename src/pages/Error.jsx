@@ -1,4 +1,5 @@
 import { Link, useNavigate, useRouteError } from "react-router-dom"
+
 // library imports
 import { HomeIcon, ArrowUturnLeftIcon } from "@heroicons/react/24/solid"
 
@@ -22,13 +23,12 @@ const Error = () => {
           to='/'
           className="btn btn--dark"
         >
-        <HomeIcon width={20} />
+          <HomeIcon width={20} />
           <span>Go home</span>
         </Link>
       </div>
-      
     </div>
   )
 }
 
-export default Error
+export default Error;
